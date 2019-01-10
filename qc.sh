@@ -1,13 +1,8 @@
 #! /bin/bash
-#SBATCH --account=def-kladams
 #SBATCH --job-name=qc.sh
 #SBATCH --time 6:00:00
 #SBATCH --mem-per-cpu=4096
 #SBATCH --mincpus=4
-#SBATCH --mail-type=BEGIN
-#SBATCH --mail-type=FAIL
-#SBATCH --mail-type=END
-#SBATCH --mail-user=iamthelm@gmail.com
 
 #to be run on the "TrimmedReads/paired" directory 
 
